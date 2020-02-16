@@ -1,0 +1,82 @@
+/* Добавляем шрифты */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500&display=swap');
+
+
+
+/* Обнуляем встроенные стили браузера
+    и добавляем размер и центровку обёрток.
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.center {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/* Стилизуем header */
+
+.header_wrap {
+    background-image: url(../img/Rectangle.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.hamburger_menu {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7654a;
+}
+
+/* Стилизуем header banner */
+
+.header-banner {
+    text-align: center;
+    color: white;
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.header-banner h1 {
+    margin-top: 110px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+.header-banner p {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}   
