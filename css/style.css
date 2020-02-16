@@ -90,7 +90,7 @@ header {
 
 .grid_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .years-blocks_center {
@@ -303,3 +303,182 @@ header {
 
 /* Наши партнёры */
 
+.our-partners_wrap {
+    background-color: #404149;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+.our-partners > h2 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.our-partners_grid > .partner_img{
+    justify-self: center;
+}
+
+/* вопросы и ответы */
+
+.a-and-q {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 150px;
+}
+
+.a-and-q > h2 {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading > h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #f7654a;
+    text-transform: uppercase;
+}
+
+.arrow-right, .arrow-up {
+    margin-right: 15px;
+}
+
+.a-and-q_block-one, .a-and-q_block-two {
+    margin-bottom: 40px;
+}
+
+.a-and-q_block-two > p {
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+/* отзывы */
+
+.reviews_wrap {
+    margin-bottom: 150px;
+}
+
+.reviews {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.reviews > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 60px;
+}
+
+.review {
+    width: 350px;
+    height: 270px;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+}
+
+.quotes {
+    margin: 30px 0px 0px 30px;
+}
+
+.review > p {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+    margin: 30px;
+}
+
+.review_block > p {
+    font-size: 21px;
+    line-height: 31px;
+}
+
+.autor {
+    color: black;
+}
+
+.company {
+    color: #f7654a;
+}
+
+/* контакты */
+
+.contacts {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 150px;
+}
+
+.contacts > h2 {
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.adress_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.adress {
+    margin-bottom: 25px;
+}
+
+.adress_heading {
+    color: #999999;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+.adress_description {
+    color: black;   
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* footer */
+
+.footer_wrap {
+    background-color: #404149;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
